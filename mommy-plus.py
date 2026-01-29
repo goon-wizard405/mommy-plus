@@ -6,11 +6,9 @@ import love
 import shock
 
 def reward():
-    print('vibe')
-    #love.vibe(time=1,power=5)
+    love.vibe(time=1,power=5)
 def punish():
-    print('punish')
-    #shock.shock(intensity=15,duration=2)
+    shock.shock(intensity=15,duration=2)
 
 if __name__ == '__main__':
     if len(sys.argv) <= 1:
