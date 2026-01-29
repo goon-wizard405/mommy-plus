@@ -1,5 +1,5 @@
 # Mommy+
-Lovense and Pishock integration with (mommy)[https://github.com/fwdekker/mommy].
+Lovense and Pishock integration with [mommy](https://github.com/fwdekker/mommy).
 
 ## Requirements
 Requires https://github.com/fwdekker/mommy to be installed. See that project for specifics.
@@ -11,7 +11,7 @@ Requires bash.
 ## Installing
 Set `mommy-plus.py`, `encourage-plus.sh`, and `encourage.sh` to executable (chmod +x FILE).
 
-Place all \*.py and \*.sh files in path.
+Place all \*.py and \*.sh files in your PATH.
 
 ## Setup
 
@@ -19,7 +19,7 @@ Place all \*.py and \*.sh files in path.
 The encourage scripts allow for mommy config swapping. To set this up, create a `~/.config/mommy/` directory. This will include \*.config.sh files, along with the active `config.sh` file. See the mommy project for how a configuration file is done.
 
 ### Lovense
-Using the lovense remote app, connect your toy and set the app to use gamemode. Edit the `love.py` script to include the IP for your gamemode server in the "ip" variable. Optionally set the "ssl" variable to true if you wish to use ssl over http.
+Using the lovense remote app, connect your toy and set the app to use gamemode. Edit the `love.py` script to include the IP for your gamemode server in the "ip" variable. Optionally set the "ssl" variable to true if you wish to use ssl instead of http.
 
 ### Pishock
 Connect haptic modules to the controller hub. Follow the normal pairing instructions here.
