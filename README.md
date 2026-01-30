@@ -24,7 +24,7 @@ Using the lovense remote app, connect your toy and set the app to use gamemode. 
 ### Pishock
 Connect haptic modules to the controller hub. Follow the normal pairing instructions here.
 
-Follow the instructions at https://pishock.com and https://apidocs.pishock.com to get an API key. Following the API docs, set the following environment variables:
+Follow the instructions at https://pishock.com and https://apidocs.pishock.com to get an API key. Using the values as described in the API docs, set the following environment variables:
 - SECRET_PISHOCK_USERNAME
 - SECRET_PISHOCK_API_KEY
 - SECRET_PISHOCK_SHARE_CODE
