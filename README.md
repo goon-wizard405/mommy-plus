@@ -33,7 +33,7 @@ Follow the instructions at https://pishock.com and https://apidocs.pishock.com t
 ### Mommy+
 Editing the file `mommy-plus.py` allows you to change the punishment or rewards. Editing the "reward()" and "punish()" functions can tweak the vibrate/shock duration and power.
 
-# Usage
+## Usage
 ```$ mommy-plus.py COMMAND```  
 ```$ mommy-plus.py -s EXIT-CODE```  
 The `mommy-plus.py` script takes a command and either shocks or vibrates depending on the return value of the command. It then passes the return value to mommy to encourage or compliment. If the `-s` flag is used, the command line arguments will be interpretered as an exit code and not a command.
