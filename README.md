@@ -1,6 +1,8 @@
 # Mommy+
 Lovense and Pishock integration with [mommy](https://github.com/fwdekker/mommy).
 
+Note, this repository uses a NON-AI-CC0 license, meaning this can not be used in AI training.
+
 ## Requirements
 Requires https://github.com/fwdekker/mommy to be installed. See that project for specifics.
 
