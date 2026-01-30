@@ -38,7 +38,7 @@ Editing the file `mommy-plus.py` allows you to change the punishment or rewards.
 ```$ mommy-plus.py -s EXIT-CODE```  
 The `mommy-plus.py` script takes a command and either shocks or vibrates depending on the return value of the command. It then passes the return value to mommy to encourage or compliment. If the `-s` flag is used, the command line arguments will be interpretered as an exit code and not a command.
 
-```encourage-plus.py LEVEL [CONF]```  
+```$ encourage-plus.py LEVEL [CONF]```  
 The encourage scripts configure the level of mommy(+) involvement. The following levels are available:
 - 0     mommy(+) isn't enabled
 - 1     mommy(+) is enabled on only specific commands; edit script to edit the commands included
